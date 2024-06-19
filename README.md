@@ -47,37 +47,37 @@ PyTorch: An open-source deep learning library known for its dynamic computation 
 /project_name
 │
 ├── data/
-│   ├── raw/                  # Raw data (optional if data is large)
-│   ├── processed/            # Processed data (tokenized, cleaned, etc.)
-│   └── embeddings/           # Pre-trained word embeddings (e.g., Word2Vec, GloVe)
+│   ├── raw/                  Raw data (optional if data is large)
+│   ├── processed/             Processed data (tokenized, cleaned, etc.)
+│   └── embeddings/           Pre-trained word embeddings (e.g., Word2Vec, GloVe)
 │
-├── notebooks/                # Jupyter notebooks for exploration and experimentation
+├── notebooks/                Jupyter notebooks for exploration and experimentation
 │   ├── data_exploration.ipynb
 │   ├── model_training.ipynb
 │   └── evaluation.ipynb
 │
 ├── src/
-│   ├── data/                 # Data processing scripts
+│   ├── data/                 Data processing scripts
 │   │   ├── preprocessing.py
 │   │   └── augmentation.py
 │   │
-│   ├── models/               # Model architectures and scripts
+│   ├── models/               Model architectures and scripts
 │   │   ├── lstm_model.py
 │   │   ├── transformer_model.py
-│   │   └── utils.py          # Utility functions for model training
+│   │   └── utils.py           Utility functions for model training
 │   │
-│   ├── evaluation/           # Evaluation scripts
+│   ├── evaluation/            Evaluation scripts
 │   │   ├── evaluate.py
 │   │   └── metrics.py
 │   │
-│   └── utils/                # General utility functions
+│   └── utils/                 General utility functions
 │       ├── helpers.py
-│       └── config.py         # Configuration settings for the project
+│       └── config.py          Configuration settings for the project
 │
-├── config.yaml               # Configuration file for hyperparameters, paths, etc.
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project description, setup instructions, usage
-└── .gitignore                # Specify files to ignore by git (e.g., data files, virtual environments)
+├── config.yaml                Configuration file for hyperparameters, paths, etc.
+├── requirements.txt           Python dependencies
+├── README.md                 Project description, setup instructions, usage
+└── .gitignore                Specify files to ignore by git (e.g., data files, virtual environments)
 
 Keras: A high-level neural networks API running on top of TensorFlow, making it simple to build and train models.
 TensorFlow: An open-source library for numerical computation and machine learning, widely used for both research and production.
