@@ -44,9 +44,9 @@ PyTorch: An open-source deep learning library known for its dynamic computation 
 
 ## Project Structure for the NLP Project
 
-/project_name
+@/project_name
 │
-├── data/
+##├── data/
 │   ├── raw/                  Raw data (optional if data is large)
 │   ├── processed/             Processed data (tokenized, cleaned, etc.)
 │   └── embeddings/           Pre-trained word embeddings (e.g., Word2Vec, GloVe)
